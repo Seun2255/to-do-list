@@ -1,0 +1,30 @@
+.body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  margin: 0%;
+  padding: 0%;
+}
+
+.left {
+  width: 30%;
+  height: 100%;
+}
+
+.right {
+  width: 70%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.topBar {
+  width: 70%;
+  height: 25%;
+}
+
+.content {
+  width: 70%;
+  height: 75%;
+}
