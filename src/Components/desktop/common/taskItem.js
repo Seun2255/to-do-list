@@ -55,7 +55,7 @@ function TaskItem(props) {
       <div className={style.right}>
         <img
           src={imgstar}
-          alt="Alarm"
+          alt="Importance icon"
           className={style.right__img}
           onClick={() => handleClick()}
         />
