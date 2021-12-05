@@ -4,6 +4,7 @@ import style from "./App.module.css";
 
 
 function App() {
+  console.log("Why Bitch");
   return (
     <div className={style.body}>
       <Desktop />

@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.container:hover {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.info {
+    font-size: 18px;
+    padding-left: 3px;
+    max-width: 70%;
+    overflow-x: hidden;
+}
+
+.type {
+    padding: 4px;
+    height: 50%;
+    border-radius: 3px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 655px) {
+    .info {
+        max-width: 60%;
+    }
+  }

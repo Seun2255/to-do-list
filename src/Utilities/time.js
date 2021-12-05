@@ -1,9 +1,29 @@
 const timeFormat = {
-    month : ["January", "February", "March", "April", "May", "June", "July", "August",
-            "September", "October", "November", "December"],
+  month: [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ],
 
-    day : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-}
+  day: [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ],
+};
 
 const currentDay = new Date();
 
