@@ -39,8 +39,8 @@ function Desktop() {
   const mediaQuery = window.matchMedia("(max-width: 600px)");
 
   const slideBar = useSpring({
-    transform: sidebar ? "translateX(0%)" : "translateX(-100%)",
-    from: { transform: "translateX(-100%)" },
+    transform: sidebar ? "translateX(0%)" : "translateX(-150%)",
+    from: { transform: "translateX(-150%)" },
     config: { duration: 300 },
   });
 

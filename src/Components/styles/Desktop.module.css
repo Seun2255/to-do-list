@@ -59,7 +59,7 @@
     width: 75%;
     position: absolute;
     z-index: 15;
-    transform: translateX(-100%);
+    transform: translateX(-150%);
   }
 
   .right {
