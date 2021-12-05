@@ -8,8 +8,7 @@ import SearchItem from "./common/searchItem";
 import close from "./img/black_X.png";
 
 function SideBar(props) {
-  const { store, list, setTaskModal, highlight, highlighted, closeSidebar } =
-    props;
+  const { store, list, setTaskModal, highlight, closeSidebar } = props;
   const setList = props.currentList;
   const [search, setSearch] = useState(false);
   const [results, setResults] = useState([]);
@@ -28,7 +27,9 @@ function SideBar(props) {
             let check = string.toLowerCase().includes(text.toLowerCase());
             var data = { text: string, type: small.type };
             check ? items.push(data) : (data = {});
+            return null;
           });
+      return null;
     });
     text === "" ? setResults([]) : setResults(items);
   }

@@ -97,10 +97,6 @@ function Desktop() {
     highlighted: highlight,
   };
 
-  function toggleBar() {
-    setSidebar(!sidebar);
-  }
-
   function highlighting(text, list) {
     setList(list);
     setHighlight(text);
